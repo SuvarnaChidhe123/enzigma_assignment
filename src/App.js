@@ -1,23 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import Dashboard from './Components/Dashboard';
+import DeleteTask from './Components/DeleteTask';
+import EditTask from './Components/EditTask';
+import NewTask from './Components/NewTask';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <DeleteTask/> */}
+      <Dashboard/>
+      {/* <EditTask/> */}
+
+      {/* <NewTask/> */}
+      {/* <NewTask/>
+      <EditTask/>
+      <DeleteTask/> */}
     </div>
   );
 }
