@@ -1,3 +1,58 @@
+# Enzigma Assignment
+
+This repository contains the code for the Enzigma assignment, which includes both the frontend and backend components.
+
+## Getting Started
+
+Follow these steps to run the application locally.
+
+### Prerequisites
+
+- Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
+
+### Running the Application
+
+1. **Open your terminal.**
+
+2. **Start the Backend Server:**
+   - Navigate to the backend directory:
+     ```bash
+     cd enzigma_assignment/Server
+     ```
+   - Install dependencies (if not done already):
+     ```bash
+     npm install
+     ```
+   - Start the backend server:
+     ```bash
+     npm start
+     ```
+
+3. **Start the Frontend:**
+   - Open a new terminal window or tab.
+   - Navigate to the main project directory:
+     ```bash
+     cd enzigma_assignment
+     ```
+   - Install dependencies (if not done already):
+     ```bash
+     npm install
+     ```
+   - Start the frontend application:
+     ```bash
+     npm start
+     ```
+
+### Accessing the Application
+
+Once both the backend and frontend servers are running, access the application in your web browser:
+
+- Frontend: `http://localhost:3000`
+- Backend: `http://localhost:3002`
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
