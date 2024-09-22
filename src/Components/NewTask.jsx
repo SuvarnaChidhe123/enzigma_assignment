@@ -43,7 +43,7 @@ const NewTask = ({ onClose }) => {
             >
                 {/* Header */}
                 <Box sx={{ textAlign: 'center', padding: '15px', borderBottom: '1.5px solid #DCDCDC', backgroundColor: '#F7F7F7' }}>
-                    <Typography variant="h6" sx={{ fontWeight: 'bold', fontSize: '18px' }}>Create New Task</Typography>
+                    <Typography variant="h6" sx={{ fontWeight: 'bold', fontSize: '18px' }}> New Task</Typography>
                 </Box>
 
                 {/* Form Content */}
@@ -66,6 +66,8 @@ const NewTask = ({ onClose }) => {
                                         <MenuItem value="User 1">User 1</MenuItem>
                                         <MenuItem value="User 2">User 2</MenuItem>
                                         <MenuItem value="User 3">User 3</MenuItem>
+                                        <MenuItem value="User 4">User 4</MenuItem>
+
                                     </Select>
                                 </FormControl>
                             </Grid>
